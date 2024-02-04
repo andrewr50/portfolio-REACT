@@ -2,9 +2,9 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className='row mt-3'>
-      <h1 className='col-6 pt-1 px-5'>Andrew Rowan</h1>
-      <ul className="nav nav-tabs col-6 pt-3 float-right">
+    <div className='row navbar'>
+      <h1 className='col-4 text-center'>Andrew Rowan</h1>
+      <ul className="nav nav-underline col-3 offset-lg-5">
         <li className="nav-item">
           <a
             href="#about"
@@ -18,7 +18,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
-            // If page is active, highlight
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio

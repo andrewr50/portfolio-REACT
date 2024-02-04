@@ -1,0 +1,29 @@
+.container {
+  margin:0 auto;
+  max-width: 120rem;
+  padding: 0 4rem;
+}
+
+.body {
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.navbar {
+  background-color: #fff;
+  height: 5rem;
+  justify-content: end;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  margin-bottom: 10rem;
+}
+
+.headshot {
+  animation: morph 8s ease-in-out infinite;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
